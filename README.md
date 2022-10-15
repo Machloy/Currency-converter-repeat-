@@ -22,4 +22,4 @@ The website is written in simple HTML, CSS also JS.
 
 ## Screenshot on my website
 
-![enter image description here](https://i.postimg.cc/SQfkctmG/Screenshot-1.png)
+![Photo of my website](https://i.postimg.cc/SQfkctmG/Screenshot-1.png)
