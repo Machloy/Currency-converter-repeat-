@@ -3,7 +3,7 @@
 
 Hello there! I repeat the exercise after a short break (again). I will be grateful for any feedback and I am asking for your understanding.
 
-Link to my website: 
+Link to my website: [Converter](https://machloy.github.io/Currency-converter-repeat-/)
 
 ## Description
 
@@ -11,7 +11,7 @@ The website is created for the Youcode course. It presents a short description o
 
 The website is written in simple HTML, CSS also JS.
 
-## [](https://github.com/Machloy/Powerwolf-fansite#technologies)Technologies
+## Technologies
 
 -   HTML
 -   CSS
