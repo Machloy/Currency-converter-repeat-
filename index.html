@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="og:image"
+      content="https://i.postimg.cc/SQfkctmG/Screenshot-1.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./script/script.js"></script>
+    <link
+      rel="icon"
+      href="https://img.favpng.com/16/25/6/computer-icons-investor-investment-bank-png-favpng-XvVhKA7ZPNwieRb3kXmTtYMBC.jpg"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/form.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <title>Przelicznik walut</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form class="form js-form">
+        <fieldset class="form__fieldset">
+          <legend class="form__legend">Konwerter walut</legend>
+          <p>
+            <label class="form__label"
+              >Kwota PLN:
+              <input
+                class="form__input js-ammount"
+                type="number"
+                required
+                step="any"
+                autofocus
+            /></label>
+          </p>
+          <p>
+            <label class="form__label"
+              >Waluta:
+              <select class="form__select js-currency">
+                <option value="4.86">EUR (4.86)</option>
+                <option value="5.52">GBP(5.52)</option>
+                <option value="4.95">USD(4.95)</option>
+              </select>
+              <p><button class="form__button">Przelicz</button></p>
+            </label>
+          </p>
+          <p class="form__result">
+            Kurs po przewalutowaniu: <strong class="js-result"></strong>
+          </p>
+        </fieldset>
+      </form>
+      <footer class="footer">
+        <p class="footer__paragraph">Powered by: Maciej Godlewski</p>
+        <a
+          class="footer__link"
+          href="https://github.com/Machloy"
+          target="_blank"
+          >Machloy</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>
